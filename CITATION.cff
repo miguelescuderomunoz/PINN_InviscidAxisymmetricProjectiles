@@ -1,0 +1,16 @@
+# Physics-Informed Neural Networks for Inviscid Flows over Axisymmetric Projectiles
+
+This repository accompanies the paper:
+
+> Physics-Informed Neural Networks for Inviscid Flows over Axisymmetric Projectiles, Miguel A. Escudero, Benoît G. Marinus, Karthik Depuru-Mohan, submitted to Computer Physics Communications, 2026.
+
+The repository will contain the code used to train, evaluate, and post-process the physics-informed neural network models described in the paper. The implementation includes routines for:
+
+- generating collocation and boundary points;
+- defining the neural-network architecture and hard boundary-condition ansatz;
+- evaluating axisymmetric Euler-equation residuals in axisymmetric coordinates;
+- training with Adam and L-BFGS optimizers;
+- comparing PINN predictions with CFD reference solutions;
+- computing post-processing quantities such as pressure distributions, drag, and spectral error measures.
+
+The repository is currently being organized for public release. The final version of the code will be uploaded during the review process and archived with a permanent DOI upon publication.
